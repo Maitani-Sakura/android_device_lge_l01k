@@ -11,6 +11,9 @@ TARGET_OTA_ASSERT_DEVICE := l01k
 # inherit from common repository
 include device/lge/joan-common/BoardConfigCommon.mk
 
+# Kernel
+TARGET_KERNEL_CONFIG := lineageos_l01k_defconfig
+
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
