@@ -11,5 +11,13 @@ TARGET_OTA_ASSERT_DEVICE := l01k
 # inherit from common repository
 include device/lge/joan-common/BoardConfigCommon.mk
 
+# SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
+# VINTF
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(DEVICE_PATH)/framework_compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # inherit from the proprietary version
 include vendor/lge/l01k/BoardConfigVendor.mk

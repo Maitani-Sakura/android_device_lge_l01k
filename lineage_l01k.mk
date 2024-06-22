@@ -14,11 +14,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-# Inherit common repository
-$(call inherit-product, device/lge/joan-common/joan-common.mk)
-
-# Inherit proprietary blobs
-$(call inherit-product, vendor/lge/l01k/l01k-vendor.mk)
+# Inherit from l01k device
+$(call inherit-product, device/lge/l01k/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := l01k
