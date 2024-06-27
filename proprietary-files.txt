@@ -44,3 +44,8 @@ vendor/lib/libLGnfc_config_vendor.so
 vendor/lib64/hw/nfc_lg.default.so
 vendor/lib64/hw/vendor.lge.hardware.nfc@1.1-impl.so
 vendor/lib64/libLGnfc_config_vendor.so
+
+# Wifi
+vendor/etc/wifi/bdwlan.bin;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan.bin
+vendor/etc/wifi/bdwlan_ch0.bin;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan_ch0.bin
+vendor/etc/wifi/bdwlan_ch1.bin;SYMLINK=vendor/firmware/wlan/qca_cld/bdwlan_ch1.bin
