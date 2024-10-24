@@ -29,7 +29,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="joan_dcm_jp-user 9 PKQ1.190414.001 20072184679ed release-keys" \
-    BuildFingerprint="lge/joan_global_com/joan:8.0.0/OPR1.170623.026/181381736b4e9:user/release-keys" \
-    DeviceName="L-01K"
+    BuildFingerprint="lge/joan_global_com/joan:8.0.0/OPR1.170623.026/181381736b4e9:user/release-keys"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model ro.vendor.product.model ro.product.system.model
