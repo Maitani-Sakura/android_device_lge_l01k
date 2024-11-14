@@ -28,11 +28,8 @@ PRODUCT_RELEASE_NAME := V30
 PRODUCT_GMS_CLIENTID_BASE := android-om-lg
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="L-01K" \
-    PRODUCT_DEVICE="L-01K" \
-    PRODUCT_NAME="joan_dcm_jp" \
-    PRIVATE_BUILD_DESC="joan_dcm_jp-user 9 PKQ1.190414.001 20072184679ed release-keys"
-
-BUILD_FINGERPRINT="lge/joan_dcm_jp/L-01K:9/PKQ1.190414.001/20072184679ed:user/release-keys"
+    BuildDesc="joan_dcm_jp-user 9 PKQ1.190414.001 20072184679ed release-keys" \
+    BuildFingerprint="lge/joan_global_com/joan:8.0.0/OPR1.170623.026/181381736b4e9:user/release-keys" \
+    DeviceName="L-01K"
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model ro.vendor.product.model ro.product.system.model
