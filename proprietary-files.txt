@@ -9,8 +9,6 @@ vendor/firmware/a540_zap.elf
 vendor/firmware/a540_zap.mdt
 
 # NFC
-lib/vendor.lge.hardware.nfc@1.0.so:vendor/lib/vendor.lge.hardware.nfc@1.0.so
-lib/vendor.lge.hardware.nfc@1.1.so:vendor/lib/vendor.lge.hardware.nfc@1.1.so
 lib64/vendor.lge.hardware.nfc@1.0.so:vendor/lib64/vendor.lge.hardware.nfc@1.0.so
 lib64/vendor.lge.hardware.nfc@1.1.so:vendor/lib64/vendor.lge.hardware.nfc@1.1.so
 vendor/bin/hw/vendor.lge.hardware.nfc@1.1-service
@@ -38,9 +36,6 @@ vendor/etc/nfc/config_nfc.xml
 vendor/etc/nfc/config_nfcopen.xml
 vendor/etc/nfc/target_list.xml
 vendor/firmware/cxd224x_firmware.bin
-vendor/lib/hw/nfc_lg.default.so
-vendor/lib/hw/vendor.lge.hardware.nfc@1.1-impl.so
-vendor/lib/libLGnfc_config_vendor.so
 vendor/lib64/hw/nfc_lg.default.so
 vendor/lib64/hw/vendor.lge.hardware.nfc@1.1-impl.so
 vendor/lib64/libLGnfc_config_vendor.so
